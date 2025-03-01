@@ -9,7 +9,6 @@ func rec(digits []int, i int) []int {
 		digits[i] = digits[i] + 1
 		return digits
 	} else {
-
 		digits[i] = 0
 		if i == 0 {
 			digits = append([]int{1}, digits...)
